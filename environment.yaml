@@ -30,7 +30,7 @@ requirements:
 about:
   home: http://www.meteo.unican.es/2022_Bano_DeepESD_GMD
   license: GPL-3.0-or-later
-  summary: R environment to reproduce the manuscript 'Downscaling Multi-Model Climate Projection Ensembles with Deep Learning (DeepESD): Contribution to CORDEX EUR-44'
+  summary: Environment to reproduce the manuscript 'Downscaling Multi-Model Climate Projection Ensembles with Deep Learning (DeepESD): Contribution to CORDEX EUR-44'
   license_family: GPL3
 
 extra:
