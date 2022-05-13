@@ -1,172 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
-	<attribute name="svn_id" value="$Id$"/>
-	<dimension name="time0" length="1" isUnlimited="false"/>
-	<variable name="time0" shape="time0" type="double">
-		<attribute name="long_name" value="time"/>
-		<attribute name="standard_name" value="time"/>
-		<attribute name="units" value= "days since 2000-01-01 00:00:00"/>
-		<attribute name="calendar" value= "standard"/>
-		<attribute name="_CoordinateAxisType" value="Time"/>
-  		<values> 0 </values>
-	</variable>
-	<variable name="orog">
-		<attribute name="coordinates" value="time0 lat lon"/>
-	</variable>
-	<variable name="sftlf">
-		<attribute name="coordinates" value="time0 lat lon"/>
-	</variable>
-	<dimension name="time" length="20440" isUnlimited="false"/>
-	<variable name="time" shape="time" type="float">
-		<attribute name="long_name" value="time"/>
-		<attribute name="standard_name" value="time"/>
-		<attribute name="units" value= "days since 1850-01-01 00:00:00"/>
-		<attribute name="calendar" value= "noleap"/>
-		<attribute name="axis" value="T"/>
-		<attribute name="_CoordinateAxisType" value="Time"/>
-		<values start="36500.500000" increment="1.000000"/>
-	</variable>
-	<variable name="plev" shape="plev" type="double">
-		<attribute name="units" value="hPa" />
-		<attribute name="scale_factor" value="0.01" type="double" />
-		<attribute name="axis" value="Z" />
-		<attribute name="positive" value="down" />
-		<attribute name="long_name" value="pressure" />
-		<attribute name="standard_name" value="air_pressure" />
-	</variable>
-	<aggregation type="union">
-	<netcdf>
-		<aggregation dimName="time0" type="joinNew">
-		<variableAgg name="orog"/>
-			<netcdf location="orog_fx_NorESM1-M_historical_r0i0p0.nc" ncoords="1"/>
-		</aggregation>
-	</netcdf>
-	<netcdf>
-		<aggregation dimName="time0" type="joinNew">
-		<variableAgg name="sftlf"/>
-			<netcdf location="sftlf_fx_NorESM1-M_historical_r0i0p0.nc" ncoords="1"/>
-		</aggregation>
-	</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="hur_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="hus_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="ta_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="ua_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="va_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-				<netcdf location="zg_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="psl_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="psl_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="tas_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="tas_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="huss_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="huss_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="pr_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="pr_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="prsn_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="prsn_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="rlds_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="rlds_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="rsds_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="rsds_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="tasmax_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="tasmax_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="tasmin_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="tasmin_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-		<netcdf>
-			<aggregation dimName="time" type="joinExisting">
-				<netcdf location="clt_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-				<netcdf location="clt_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
-			</aggregation>
-		</netcdf>
-	</aggregation>
+  <attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+  <dimension name="time0" length="1" isUnlimited="false"/>
+  <variable name="time0" shape="time0" type="double">
+    <attribute name="long_name" value="time"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="units" value="days since 2000-01-01 00:00:00"/>
+    <attribute name="calendar" value="standard"/>
+    <values> 0 </values>
+  </variable>
+  <variable name="orog">
+    <attribute name="coordinates" value="time0 lat lon"/>
+  </variable>
+  <variable name="sftlf">
+    <attribute name="coordinates" value="time0 lat lon"/>
+  </variable>
+  <dimension name="time" length="20440" isUnlimited="false"/>
+  <variable name="time" shape="time" type="float">
+    <attribute name="long_name" value="time"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="units" value="days since 1850-01-01 00:00:00"/>
+    <attribute name="calendar" value="noleap"/>
+    <attribute name="axis" value="T"/>
+    <values start="36500.500000" increment="1.000000"/>
+  </variable>
+  <variable name="plev" shape="plev" type="double">
+    <attribute name="units" value="hPa"/>
+    <attribute name="scale_factor" value="0.01" type="double"/>
+    <attribute name="axis" value="Z"/>
+    <attribute name="positive" value="down"/>
+    <attribute name="long_name" value="pressure"/>
+    <attribute name="standard_name" value="air_pressure"/>
+  </variable>
+  <aggregation type="union">
+    <netcdf>
+      <aggregation dimName="time0" type="joinNew">
+        <variableAgg name="orog"/>
+        <netcdf location="orog_fx_NorESM1-M_historical_r0i0p0.nc" ncoords="1"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time0" type="joinNew">
+        <variableAgg name="sftlf"/>
+        <netcdf location="sftlf_fx_NorESM1-M_historical_r0i0p0.nc" ncoords="1"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="hur_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="hus_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="ta_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="ua_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="va_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+        <netcdf location="zg_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="psl_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="psl_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="tas_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="tas_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="huss_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="huss_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="pr_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="pr_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="prsn_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="prsn_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="rlds_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="rlds_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="rsds_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="rsds_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="tasmax_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="tasmax_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="tasmin_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="tasmin_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time" type="joinExisting">
+        <netcdf location="clt_day_NorESM1-M_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+        <netcdf location="clt_day_NorESM1-M_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+      </aggregation>
+    </netcdf>
+  </aggregation>
 </netcdf>
