@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+	<attribute name="primary_variables" value="hur, hus, huss, pr, prc, prsn, psl, ta, tas, tasmax, tasmin, ua, uas, va, vas, wap, zg"/>
+	<attribute name="svn_id" value="$Id$"/>
+	<dimension name="time0" length="1" isUnlimited="false"/>
+	<variable name="time0" shape="time0" type="double">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 2000-01-01 00:00:00"/>
+		<attribute name="calendar" value= "standard"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+  		<values> 0 </values>
+	</variable>
+	<variable name="orog">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<variable name="sftlf">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<dimension name="time1" length="33580" isUnlimited="false"/>
+	<variable name="time1" shape="time1" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1850-1-1"/>
+		<attribute name="calendar" value= "365_day"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="33215.500000" increment="1.000000"/>
+	</variable>
+	<dimension name="time2" length="34675" isUnlimited="false"/>
+	<variable name="time2" shape="time2" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1850-1-1"/>
+		<attribute name="calendar" value= "365_day"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="56940.500000" increment="1.000000"/>
+	</variable>
+	<dimension name="time3" length="34675" isUnlimited="false"/>
+	<variable name="time3" shape="time3" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1850-1-1"/>
+		<attribute name="calendar" value= "365_day"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="56940.500000" increment="1.000000"/>
+	</variable>
+	<variable name="plev" shape="plev" type="double">
+		<attribute name="units" value="hPa" />
+		<attribute name="scale_factor" value="0.01" type="double" />
+		<attribute name="axis" value="Z" />
+		<attribute name="positive" value="down" />
+		<attribute name="long_name" value="pressure" />
+		<attribute name="standard_name" value="air_pressure" />
+	</variable>
+	<remove name="time" type="variable"/>
+	<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="orog"/>
+				<netcdf location="orog_fx_CanESM2_rcp85_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="sftlf"/>
+				<netcdf location="sftlf_fx_CanESM2_rcp85_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+
+		<netcdf>
+			<dimension name="time2" orgName="time"/>
+			<aggregation type="union">
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="wap_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="hur_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="hus_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="ta_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="ua_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="va_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20110101-20201231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20210101-20301231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20310101-20401231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20410101-20501231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20510101-20601231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20610101-20701231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20710101-20801231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20810101-20901231.nc" ncoords="3650"/>
+						<netcdf location="zg_day_CanESM2_rcp85_r1i1p1_20910101-21001231.nc" ncoords="3650"/>
+					</aggregation>
+				</netcdf>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<dimension name="time3" orgName="time"/>
+			<aggregation type="union">
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="clt_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="pr_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="sfcWindmax_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="sfcWind_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="tasmax_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="tasmin_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="tas_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="huss_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="prc_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="prsn_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="psl_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="uas_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+				<netcdf>
+					<aggregation dimName="time" type="joinExisting">
+						<netcdf location="vas_day_CanESM2_rcp85_r1i1p1_20060101-21001231.nc" ncoords="34675"/>
+					</aggregation>
+				</netcdf>
+			</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>

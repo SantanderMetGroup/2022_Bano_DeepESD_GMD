@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+	<attribute name="primary_variables" value="clt, hfls, hfss, prc, pr, prsn, psl, rlds, rlus, rlut, rsds, rsus, sfcWindmax, tasmax, tasmin, tas, sfcWind, uas, vas, hur, hus, ta, ua, va, wap, zg"/>
+	<attribute name="svn_id" value="$Id$"/>
+	<dimension name="time0" length="1" isUnlimited="false"/>
+	<variable name="time0" shape="time0" type="double">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 2000-01-01 00:00:00"/>
+		<attribute name="calendar" value= "standard"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+  		<values> 0 </values>
+	</variable>
+	<variable name="orog">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<variable name="sftlf">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<dimension name="time" length="20454" isUnlimited="false"/>
+	<variable name="time" shape="time" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1850-1-1 00:00:00"/>
+		<attribute name="calendar" value= "proleptic_gregorian"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="36524.500000" increment="1.000000"/>
+	</variable>
+	<variable name="plev" shape="plev" type="double">
+		<attribute name="units" value="hPa" />
+		<attribute name="scale_factor" value="0.01" type="double" />
+		<attribute name="axis" value="Z" />
+		<attribute name="positive" value="down" />
+		<attribute name="long_name" value="pressure" />
+		<attribute name="standard_name" value="air_pressure" />
+	</variable>
+	<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="orog"/>
+				<netcdf location="orog_fx_MPI-ESM-LR_historical_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="sftlf"/>
+				<netcdf location="sftlf_fx_MPI-ESM-LR_historical_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="clt_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="hfls_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="hfss_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="prc_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="pr_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="prsn_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="psl_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="rlds_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="rlus_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="rlut_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="rsds_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="rsus_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="sfcWindmax_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="tasmax_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="tasmin_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="tas_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="sfcWind_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="uas_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_19500101-19591231.nc" ncoords="3652"/>
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_19600101-19691231.nc" ncoords="3653"/>
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc" ncoords="3652"/>
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_19800101-19891231.nc" ncoords="3653"/>
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_19900101-19991231.nc" ncoords="3652"/>
+				<netcdf location="vas_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc" ncoords="2192"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="hur_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="hus_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="ta_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="ua_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="va_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="wap_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19500101-19501231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19510101-19511231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19520101-19521231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19530101-19531231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19540101-19541231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19550101-19551231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19560101-19561231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19570101-19571231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19580101-19581231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19590101-19591231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19600101-19601231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19610101-19611231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19620101-19621231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19630101-19631231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19640101-19641231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19650101-19651231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19660101-19661231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19670101-19671231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19680101-19681231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19690101-19691231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19700101-19701231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19710101-19711231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19720101-19721231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19730101-19731231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19740101-19741231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19750101-19751231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19770101-19771231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19780101-19781231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19790101-19791231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19800101-19801231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19810101-19811231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19820101-19821231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19830101-19831231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19840101-19841231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19850101-19851231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19860101-19861231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19870101-19871231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19880101-19881231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19890101-19891231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19900101-19901231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19910101-19911231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19920101-19921231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19930101-19931231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19940101-19941231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19950101-19951231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19960101-19961231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19970101-19971231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19980101-19981231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_19990101-19991231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20000101-20001231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20010101-20011231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20020101-20021231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20030101-20031231.nc" ncoords="365"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20040101-20041231.nc" ncoords="366"/>
+				<netcdf location="zg_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc" ncoords="365"/>
+			</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>

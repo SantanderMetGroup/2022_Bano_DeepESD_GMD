@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+	<attribute name="primary_variables" value="hur, hus, psl, ta, tas, tasmax, tasmin, ua, uas, va, vas, wap, zg"/>
+	<attribute name="svn_id" value="$Id$"/>
+	<dimension name="time0" length="1" isUnlimited="false"/>
+	<variable name="time0" shape="time0" type="double">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1861-01-01 00:00:00"/>
+		<attribute name="calendar" value= "standard"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+  		<values> 0.5 </values>
+	</variable>
+	<variable name="orog">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<variable name="sftlf">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<dimension name="time1" length="52925" isUnlimited="false"/>
+	<variable name="time1" shape="time1" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 1861-01-01 00:00:00"/>
+		<attribute name="calendar" value= "noleap"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="0.500000" increment="1.000000"/>
+	</variable>
+	<variable name="plev" shape="plev" type="double">
+		<attribute name="units" value="hPa" />
+		<attribute name="scale_factor" value="0.01" type="double" />
+		<attribute name="axis" value="Z" />
+		<attribute name="positive" value="down" />
+		<attribute name="long_name" value="pressure" />
+		<attribute name="standard_name" value="air_pressure" />
+	</variable>
+	<remove name="time" type="variable"/>
+	<aggregation type="union">
+	<netcdf>
+		<aggregation dimName="time0" type="joinNew">
+		<variableAgg name="orog"/>
+			<netcdf location="orog_fx_GFDL-ESM2M_historical_r0i0p0.nc" ncoords="1"/>
+		</aggregation>
+	</netcdf>
+	<netcdf>
+		<aggregation dimName="time0" type="joinNew">
+		<variableAgg name="sftlf"/>
+			<netcdf location="sftlf_fx_GFDL-ESM2M_historical_r0i0p0.nc" ncoords="1"/>
+		</aggregation>
+	</netcdf>
+		<netcdf>
+		<dimension name="time1" orgName="time"/>
+		<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="hur_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="hus_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="psl_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="ta_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="clt_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="huss_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="pr_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="prsn_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="sfcWindmax_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="sfcWind_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="tas_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="tasmax_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="tasmin_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="ua_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="uas_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="va_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="vas_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="wap_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18610101-18651231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18660101-18701231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18710101-18751231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18760101-18801231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18810101-18851231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18860101-18901231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18910101-18951231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_18960101-19001231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19010101-19051231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19060101-19101231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19110101-19151231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19160101-19201231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19210101-19251231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19260101-19301231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19310101-19351231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19360101-19401231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19410101-19451231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19460101-19501231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19510101-19551231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19560101-19601231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19610101-19651231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19660101-19701231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19710101-19751231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19760101-19801231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19810101-19851231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19860101-19901231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19910101-19951231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_19960101-20001231.nc" ncoords="1825"/>
+				<netcdf location="zg_day_GFDL-ESM2M_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
+	</aggregation>
+</netcdf>

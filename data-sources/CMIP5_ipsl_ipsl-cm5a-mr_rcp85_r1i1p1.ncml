@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+	<attribute name="primary_variables" value="hur, hus, psl, ta, tas, tasmax, tasmin, ua, uas, va, vas, zg"/>
+	<attribute name="svn_id" value="$Id$"/>
+	<dimension name="time0" length="1" isUnlimited="false"/>
+	<variable name="time0" shape="time0" type="double">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 2000-01-01 00:00:00"/>
+		<attribute name="calendar" value= "standard"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+  		<values> 0 </values>
+	</variable>
+	<variable name="orog">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<variable name="sftlf">
+		<attribute name="coordinates" value="time0 lat lon"/>
+	</variable>
+	<dimension name="time1" length="34675" isUnlimited="false"/>
+	<variable name="time1" shape="time1" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 2006-01-01 00:00:00"/>
+		<attribute name="calendar" value= "noleap"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="0.500000" increment="1.000000"/>
+	</variable>
+	<dimension name="time2" length="34675" isUnlimited="false"/>
+	<variable name="time2" shape="time2" type="float">
+		<attribute name="long_name" value="time"/>
+		<attribute name="standard_name" value="time"/>
+		<attribute name="units" value= "days since 2006-01-01 00:00:00"/>
+		<attribute name="calendar" value= "noleap"/>
+		<attribute name="axis" value="T"/>
+		<attribute name="_CoordinateAxisType" value="Time"/>
+		<values start="0.500000" increment="1.000000"/>
+	</variable>
+	<variable name="plev" shape="plev" type="double">
+		<attribute name="units" value="hPa" />
+		<attribute name="scale_factor" value="0.01" type="double" />
+		<attribute name="axis" value="Z" />
+		<attribute name="positive" value="down" />
+		<attribute name="long_name" value="pressure" />
+		<attribute name="standard_name" value="air_pressure" />
+	</variable>
+	<remove name="time" type="variable"/>
+	<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="orog"/>
+				<netcdf location="orog_fx_IPSL-CM5A-MR_rcp85_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time0" type="joinNew">
+			<variableAgg name="sftlf"/>
+				<netcdf location="sftlf_fx_IPSL-CM5A-MR_rcp85_r0i0p0.nc" ncoords="1"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+		<dimension name="time1" orgName="time"/>
+		<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="hur_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="hus_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="ta_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="ua_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="va_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20151231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20160101-20251231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20260101-20351231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20360101-20451231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20460101-20551231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-20651231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20660101-20751231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20760101-20851231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20860101-20951231.nc" ncoords="3650"/>
+				<netcdf location="zg_day_IPSL-CM5A-MR_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+			</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
+		<netcdf>
+		<dimension name="time2" orgName="time"/>
+		<aggregation type="union">
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="clt_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="clt_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="huss_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="huss_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="prsn_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="prsn_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rlds_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="rlds_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="rsds_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="rsds_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWind_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="sfcWind_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="sfcWindmax_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="sfcWindmax_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="psl_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="psl_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="pr_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="pr_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="tas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmax_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="tasmax_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="tasmin_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="tasmin_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="uas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="uas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="vas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="vas_day_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+		<netcdf>
+			<aggregation dimName="time" type="joinExisting">
+				<netcdf location="ps_cfDay_IPSL-CM5A-MR_rcp85_r1i1p1_20060101-20551231.nc" ncoords="18250"/>
+				<netcdf location="ps_cfDay_IPSL-CM5A-MR_rcp85_r1i1p1_20560101-21001231.nc" ncoords="16425"/>
+			</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
+	</aggregation>
+</netcdf>
