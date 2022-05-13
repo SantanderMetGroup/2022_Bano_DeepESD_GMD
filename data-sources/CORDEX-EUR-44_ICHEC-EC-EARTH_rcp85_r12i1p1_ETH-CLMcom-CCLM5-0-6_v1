@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-  <attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+  <attribute name="Conventions" value="CF-1.6"/>
   <variable name="lon">
   </variable>
   <variable name="lat">

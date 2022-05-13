@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-  <attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
+  <attribute name="Conventions" value="CF-1.6"/>
   <dimension name="time1" length="34698" isUnlimited="false"/>
   <variable name="time1" shape="time1" type="float">
     <attribute name="long_name" value="time"/>
