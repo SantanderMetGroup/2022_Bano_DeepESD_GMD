@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
-	<attribute name="primary_variables" value="pr"/>
 	<attribute name="svn_id" value="$Id: ec-earth_ec-earth_historical_r12i1p1.ncml 1323 2018-05-28 11:10:20Z sixto $"/>
 	<dimension name="time1" length="13880" isUnlimited="false"/>
 	<variable name="lat1" shape="lat" type="double">

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 	<attribute name="Conventions" value="CF-1.6, _Coordinates, UW-1.0"/>
-	<attribute name="primary_variables" value="hur, hus, huss, pr, prsn, psl, rlds, rsds, ta, tasmax, tasmin, tas, ua, va, zg"/>
 	<attribute name="svn_id" value="$Id$"/>
 	<dimension name="time0" length="1" isUnlimited="false"/>
 	<variable name="time0" shape="time0" type="double">
