@@ -37,13 +37,13 @@
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="orog_fx_GFDL-ESM2M_rcp85_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/fx/atmos/fx/r0i0p0/v20120123/orog_fx_GFDL-ESM2M_rcp85_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="sftlf_fx_GFDL-ESM2M_rcp85_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/fx/atmos/fx/r0i0p0/v20120123/sftlf_fx_GFDL-ESM2M_rcp85_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
@@ -51,324 +51,324 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="hur_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hur_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="hus_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/hus_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="pr_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/pr_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="psl_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/psl_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="ta_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ta_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="tas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmax_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/tasmin_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="ua_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/ua_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="uas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/uas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="va_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/va_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="vas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/vas_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="wap_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/wap_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
-            <netcdf location="zg_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1825"/>
+            <netcdf location="DRS/cmip5/output1/NOAA-GFDL/GFDL-ESM2M/rcp85/day/atmos/day/r1i1p1/v20111228/zg_day_GFDL-ESM2M_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
       </aggregation>

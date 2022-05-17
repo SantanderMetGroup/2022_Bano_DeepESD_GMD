@@ -62,77 +62,77 @@
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="orog_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r0i0p0/ETH-CCLM5-0-6/v1/fx/orog/v20180129/orog_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="sftlf_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r0i0p0/ETH-CCLM5-0-6/v1/fx/sftlf/v20180129/sftlf_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19500101-19501231.nc" ncoords="365"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19510101-19551231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19560101-19601231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19610101-19651231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19660101-19701231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="DRS/cordex/output/EUR-44/ETH/CNRM-CERFACS-CNRM-CM5/historical/r1i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_CNRM-CERFACS-CNRM-CM5_historical_r1i1p1_CLMcom-CCLM5-0-6_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
   </aggregation>

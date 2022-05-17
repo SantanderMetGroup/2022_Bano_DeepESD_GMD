@@ -48,7 +48,7 @@
         <netcdf>
           <aggregation dimName="time2" type="joinNew">
             <variableAgg name="orog"/>
-            <netcdf location="orog_fx_EC-EARTH_rcp45_r0i0p0.nc" ncoords="1"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp45/fx/atmos/fx/r0i0p0/v20130313/orog_fx_EC-EARTH_rcp45_r0i0p0.nc" ncoords="1"/>
           </aggregation>
           <variable name="lat1" orgName="lat">
             <attribute name="long_name" value="latitude"/>
@@ -59,7 +59,7 @@
         <netcdf>
           <aggregation dimName="time2" type="joinNew">
             <variableAgg name="sftlf"/>
-            <netcdf location="sftlf_fx_EC-EARTH_rcp45_r0i0p0.nc" ncoords="1"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp45/fx/atmos/fx/r0i0p0/v20130313/sftlf_fx_EC-EARTH_rcp45_r0i0p0.nc" ncoords="1"/>
           </aggregation>
           <variable name="lat1" orgName="lat">
             <attribute name="long_name" value="latitude"/>
@@ -74,72 +74,72 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="pr_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="pr_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="pr_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/pr_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/pr_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/pr_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmin_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="tasmin_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="tasmin_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmin_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmin_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmin_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmax_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="tasmax_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="tasmax_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmax_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmax_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tasmax_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
             <netcdf location="tas_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc4" ncoords="9131"/>
             <netcdf location="tas_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc4" ncoords="9131"/>
-            <netcdf location="tas_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/tas_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="hus_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="hus_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="hus_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/hus_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/hus_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/hus_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ta_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="ta_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="ta_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ta_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ta_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ta_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ua_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="ua_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="ua_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ua_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ua_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/ua_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="va_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="va_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="va_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/va_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/va_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/va_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="zg_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="zg_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="zg_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/zg_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/zg_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/zg_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="psl_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
-            <netcdf location="psl_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
-            <netcdf location="psl_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/psl_day_EC-EARTH_rcp85_r12i1p1_20060101-20301231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/psl_day_EC-EARTH_rcp85_r12i1p1_20310101-20551231.nc" ncoords="9131"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/rcp85/day/atmos/day/r12i1p1/v20120924/psl_day_EC-EARTH_rcp85_r12i1p1_20560101-21001231.nc" ncoords="16436"/>
           </aggregation>
         </netcdf>
       </aggregation>

@@ -78,7 +78,7 @@
         <netcdf>
           <aggregation dimName="time2" type="joinNew">
             <variableAgg name="orog"/>
-            <netcdf location="orog_fx_EC-EARTH_historical_r0i0p0.nc" ncoords="1"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/fx/atmos/fx/r0i0p0/v20130211/orog_fx_EC-EARTH_historical_r0i0p0.nc" ncoords="1"/>
           </aggregation>
           <variable name="lat1" orgName="lat">
             <attribute name="long_name" value="latitude"/>
@@ -89,7 +89,7 @@
         <netcdf>
           <aggregation dimName="time2" type="joinNew">
             <variableAgg name="sftlf"/>
-            <netcdf location="sftlf_fx_EC-EARTH_historical_r0i0p0.nc" ncoords="1"/>
+            <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/fx/atmos/fx/r0i0p0/v20130211/sftlf_fx_EC-EARTH_historical_r0i0p0.nc" ncoords="1"/>
           </aggregation>
           <variable name="lat1" orgName="lat">
             <attribute name="long_name" value="latitude"/>
@@ -102,16 +102,16 @@
     <netcdf>
       <dimension name="time1" orgName="time"/>
       <aggregation type="union">
-        <netcdf location="hus_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="pr_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="ta_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="tasmax_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="tasmin_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="tas_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="ua_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="va_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="zg_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
-        <netcdf location="psl_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20131231/hus_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20120608/pr_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20131231/ta_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20120608/tasmax_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20120608/tasmin_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20120608/tas_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20131231/ua_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20131231/va_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20131231/zg_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
+        <netcdf location="DRS/cmip5/output1/ICHEC/EC-EARTH/historical/day/atmos/day/r12i1p1/v20120608/psl_day_EC-EARTH_historical_r12i1p1_19750101-20121231.nc" ncoords="13880"/>
       </aggregation>
     </netcdf>
   </aggregation>

@@ -92,223 +92,223 @@
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="orog_EUR-44_NCC-NorESM1-M_historical_r0i0p0_SMHI-RCA4_v1_fx.nc" ncoords="1"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r0i0p0/SMHI-RCA4/v1/fx/orog/v20130927/orog_EUR-44_NCC-NorESM1-M_historical_r0i0p0_SMHI-RCA4_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="sftlf_EUR-44_NCC-NorESM1-M_historical_r0i0p0_SMHI-RCA4_v1_fx.nc" ncoords="1"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r0i0p0/SMHI-RCA4/v1/fx/sftlf/v20130927/sftlf_EUR-44_NCC-NorESM1-M_historical_r0i0p0_SMHI-RCA4_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/hurs/v20141024/hurs_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/huss/v20130927/huss_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/pr/v20130927/pr_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/prsn/v20130927/prsn_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/ps/v20130927/ps_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rlds/v20130927/rlds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/rsds/v20130927/rsds_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWind/v20130927/sfcWind_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/sfcWindmax/v20130927/sfcWindmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/snd/v20130927/snd_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tas/v20130927/tas_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmax/v20130927/tasmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/tasmin/v20130927/tasmin_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
-        <netcdf location="wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19510101-19551231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19560101-19601231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19610101-19651231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19660101-19701231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19710101-19751231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19760101-19801231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19810101-19851231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19860101-19901231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19910101-19951231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_19960101-20001231.nc" ncoords="1825"/>
+        <netcdf location="DRS/cordex/output/EUR-44/SMHI/NCC-NorESM1-M/historical/r1i1p1/SMHI-RCA4/v1/day/wsgsmax/v20130927/wsgsmax_EUR-44_NCC-NorESM1-M_historical_r1i1p1_SMHI-RCA4_v1_day_20010101-20051231.nc" ncoords="1825"/>
       </aggregation>
     </netcdf>
   </aggregation>

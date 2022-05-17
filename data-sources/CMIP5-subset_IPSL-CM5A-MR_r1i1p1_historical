@@ -55,13 +55,13 @@
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="orog_fx_IPSL-CM5A-MR_historical_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/fx/atmos/fx/r0i0p0/v20111119/orog_fx_IPSL-CM5A-MR_historical_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="sftlf_fx_IPSL-CM5A-MR_historical_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/fx/atmos/fx/r0i0p0/v20111119/sftlf_fx_IPSL-CM5A-MR_historical_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
@@ -69,62 +69,62 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="hur_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hur_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="hus_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/hus_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="ta_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ta_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="ua_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/ua_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="va_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/va_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
-            <netcdf location="zg_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19591231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_19600101-19691231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_19700101-19791231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_19800101-19891231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_19900101-19991231.nc" ncoords="3650"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/zg_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
       </aggregation>
@@ -134,90 +134,90 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="psl_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="psl_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="psl_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="psl_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/psl_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/psl_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/psl_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/psl_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tas_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="tas_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="tas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="tas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tas_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tas_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmax_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/tasmin_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="huss_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="huss_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="huss_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="huss_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/huss_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/huss_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/huss_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/huss_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="pr_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="pr_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="pr_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="pr_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/pr_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/pr_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/pr_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/pr_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWind_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/cfDay/r1i1p1/v20111119/ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/cfDay/r1i1p1/v20111119/ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/cfDay/r1i1p1/v20111119/ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/cfDay/r1i1p1/v20111119/ps_cfDay_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="clt_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="clt_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="clt_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="clt_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/clt_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/clt_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/clt_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/clt_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="rlds_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="rlds_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="rlds_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="rlds_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/rlds_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/rlds_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/rlds_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/rlds_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="rsds_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
-            <netcdf location="rsds_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
-            <netcdf location="rsds_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="rsds_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/rsds_day_IPSL-CM5A-MR_historical_r1i1p1_18500101-18991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output2/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20130506/rsds_day_IPSL-CM5A-MR_historical_r1i1p1_19000101-19491231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/rsds_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/rsds_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
       </aggregation>
@@ -227,26 +227,26 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="uas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="uas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/uas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/uas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="vas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="vas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/vas_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/vas_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="sfcWindmax_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="sfcWindmax_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWindmax_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/sfcWindmax_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="prsn_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
-            <netcdf location="prsn_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/prsn_day_IPSL-CM5A-MR_historical_r1i1p1_19500101-19991231.nc" ncoords="18250"/>
+            <netcdf location="DRS/cmip5/output1/IPSL/IPSL-CM5A-MR/historical/day/atmos/day/r1i1p1/v20111119/prsn_day_IPSL-CM5A-MR_historical_r1i1p1_20000101-20051231.nc" ncoords="2190"/>
           </aggregation>
         </netcdf>
       </aggregation>
