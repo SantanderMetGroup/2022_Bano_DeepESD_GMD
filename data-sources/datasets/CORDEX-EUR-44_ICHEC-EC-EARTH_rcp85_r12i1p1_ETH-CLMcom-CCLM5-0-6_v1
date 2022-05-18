@@ -62,105 +62,105 @@
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r0i0p0/ETH-CCLM5-0-6/v1/fx/orog/v20180129/orog_EUR-44_ICHEC-EC-EARTH_rcp85_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r0i0p0/ETH-CCLM5-0-6/v1/fx/orog/v20180129/orog_EUR-44_ICHEC-EC-EARTH_rcp85_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r0i0p0/ETH-CCLM5-0-6/v1/fx/sftlf/v20180129/sftlf_EUR-44_ICHEC-EC-EARTH_rcp85_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r0i0p0/ETH-CCLM5-0-6/v1/fx/sftlf/v20180129/sftlf_EUR-44_ICHEC-EC-EARTH_rcp85_r0i0p0_CLMcom-CCLM5-0-6_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/pr/v20180129/pr_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tas/v20180129/tas_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmax/v20180129/tasmax_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20060101-20101231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20110101-20151231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20160101-20201231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20210101-20251231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20260101-20301231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20310101-20351231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20360101-20401231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20410101-20451231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20460101-20501231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20510101-20551231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20560101-20601231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20610101-20651231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20660101-20701231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20710101-20751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20760101-20801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20810101-20851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20860101-20901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20910101-20951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/ETH/ICHEC-EC-EARTH/rcp85/r12i1p1/ETH-CCLM5-0-6/v1/day/tasmin/v20180129/tasmin_EUR-44_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM5-0-6_v1_day_20960101-20991231.nc" ncoords="1461"/>
       </aggregation>
     </netcdf>
   </aggregation>

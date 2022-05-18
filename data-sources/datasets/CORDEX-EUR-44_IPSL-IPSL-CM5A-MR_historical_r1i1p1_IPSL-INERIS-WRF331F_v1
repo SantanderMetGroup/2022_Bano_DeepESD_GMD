@@ -91,134 +91,134 @@
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r0i0p0/IPSL-INERIS-WRF331F/v1/fx/orog/v20140301/orog_EUR-44_IPSL-IPSL-CM5A-MR_historical_r0i0p0_IPSL-INERIS-WRF331F_v1_fx.nc" ncoords="1"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r0i0p0/IPSL-INERIS-WRF331F/v1/fx/orog/v20140301/orog_EUR-44_IPSL-IPSL-CM5A-MR_historical_r0i0p0_IPSL-INERIS-WRF331F_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time1" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r0i0p0/IPSL-INERIS-WRF331F/v1/fx/sftlf/v20140301/sftlf_EUR-44_IPSL-IPSL-CM5A-MR_historical_r0i0p0_IPSL-INERIS-WRF331F_v1_fx.nc" ncoords="1"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r0i0p0/IPSL-INERIS-WRF331F/v1/fx/sftlf/v20140301/sftlf_EUR-44_IPSL-IPSL-CM5A-MR_historical_r0i0p0_IPSL-INERIS-WRF331F_v1_fx.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rlds/v20140301/rlds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/rsds/v20140301/rsds_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/pr/v20140301/pr_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/prsn/v20140301/prsn_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/psl/v20140301/psl_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWind/v20140301/sfcWind_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/sfcWindmax/v20140301/sfcWindmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tas/v20140301/tas_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmax/v20140301/tasmax_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/tasmin/v20140301/tasmin_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time" type="joinExisting">
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
-        <netcdf location="DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19710101-19751231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19760101-19801231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19810101-19851231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19860101-19901231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19910101-19951231.nc" ncoords="1826"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_19960101-20001231.nc" ncoords="1827"/>
+        <netcdf location="../DRS/cordex/output/EUR-44/IPSL-INERIS/IPSL-IPSL-CM5A-MR/historical/r1i1p1/IPSL-INERIS-WRF331F/v1/day/huss/v20140301/huss_EUR-44_IPSL-IPSL-CM5A-MR_historical_r1i1p1_IPSL-INERIS-WRF331F_v1_day_20010101-20051231.nc" ncoords="1826"/>
       </aggregation>
     </netcdf>
   </aggregation>

@@ -46,13 +46,13 @@
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="orog"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/fx/atmos/r0i0p0/v20130331/orog_fx_CanESM2_historical_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/fx/atmos/r0i0p0/v20130331/orog_fx_CanESM2_historical_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
       <aggregation dimName="time0" type="joinNew">
         <variableAgg name="sftlf"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/fx/atmos/r0i0p0/v20130331/sftlf_fx_CanESM2_historical_r0i0p0.nc" ncoords="1"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/fx/atmos/r0i0p0/v20130331/sftlf_fx_CanESM2_historical_r0i0p0.nc" ncoords="1"/>
       </aggregation>
     </netcdf>
     <netcdf>
@@ -60,79 +60,79 @@
       <aggregation type="union">
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hur_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hus_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ta_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/ua_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/va_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/wap_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
         <netcdf>
           <aggregation dimName="time" type="joinExisting">
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
-            <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19410101-19501231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19510101-19601231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19610101-19701231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19710101-19801231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19810101-19901231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_19910101-20001231.nc" ncoords="3650"/>
+            <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/zg_day_CanESM2_historical_r1i1p1_20010101-20051231.nc" ncoords="1825"/>
           </aggregation>
         </netcdf>
       </aggregation>
@@ -140,29 +140,29 @@
     <netcdf>
       <dimension name="time2" orgName="time"/>
       <aggregation type="union">
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/clt_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hfls_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hfss_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/huss_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/prc_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/pr_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/prsn_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/psl_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhsmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhsmin_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhs_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlds_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlus_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlut_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rsds_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rsus_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/sfcWindmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/sfcWind_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tasmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tasmin_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/uas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
-        <netcdf location="DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/vas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/clt_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hfls_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/hfss_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/huss_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/prc_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/pr_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/prsn_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/psl_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhsmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhsmin_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rhs_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlds_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlus_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rlut_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rsds_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/rsus_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/sfcWindmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/sfcWind_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tasmax_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tasmin_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/tas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/uas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
+        <netcdf location="../DRS/cmip5/output/CCCma/CanESM2/historical/day/atmos/r1i1p1/v20130331/vas_day_CanESM2_historical_r1i1p1_18500101-20051231.nc" ncoords="56940"/>
       </aggregation>
     </netcdf>
   </aggregation>
