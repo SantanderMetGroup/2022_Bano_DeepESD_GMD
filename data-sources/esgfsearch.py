@@ -215,7 +215,6 @@ class Aria2cFormatter(Formatter):
         if not title in instance_id:
             instance_id = ".".join([instance_id, title])
 
-        # fuck cordex
         if instance_id.split(".")[0].lower() == "cordex":
             parts = instance_id.split(".")
             parts[7] = "-".join([parts[3], parts[7]])
