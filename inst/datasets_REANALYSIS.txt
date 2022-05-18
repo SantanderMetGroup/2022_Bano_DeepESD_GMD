@@ -1,0 +1,3 @@
+name,type,url,dicname
+ECMWF_ERA-Interim-ESD,reanalysis,http://data.meteo.unican.es/tds5/dodsC/interim/daily/interim20_daily.ncml,ERA_interim.dic
+
