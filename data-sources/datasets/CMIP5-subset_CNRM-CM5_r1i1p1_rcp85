@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http:/www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <attribute name="Conventions" value="CF-1.6"/>
+  <dimension name="time0" length="1" isUnlimited="false"/>
+  <variable name="time0" shape="time0" type="double">
+    <attribute name="long_name" value="time"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="units" value="days since 2000-01-01 00:00:00"/>
+    <attribute name="calendar" value="standard"/>
+    <values> 0 </values>
+  </variable>
+  <variable name="orog">
+    <attribute name="coordinates" value="time0 lat lon"/>
+  </variable>
+  <variable name="sftlf">
+    <attribute name="coordinates" value="time0 lat lon"/>
+  </variable>
+  <dimension name="time1" length="34698" isUnlimited="false"/>
+  <variable name="time1" shape="time1" type="float">
+    <attribute name="long_name" value="time"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="units" value="days since 2006-01-01 00:00:00"/>
+    <attribute name="calendar" value="gregorian"/>
+    <attribute name="axis" value="T"/>
+    <values start="0.500000" increment="1.000000"/>
+  </variable>
+  <dimension name="time2" length="34698" isUnlimited="false"/>
+  <variable name="time2" shape="time2" type="float">
+    <attribute name="long_name" value="time"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="units" value="days since 2006-01-01 00:00:00"/>
+    <attribute name="calendar" value="gregorian"/>
+    <attribute name="axis" value="T"/>
+    <values start="0.500000" increment="1.000000"/>
+  </variable>
+  <variable name="plev" shape="plev" type="double">
+    <attribute name="units" value="hPa"/>
+    <attribute name="scale_factor" value="0.01" type="double"/>
+    <attribute name="axis" value="Z"/>
+    <attribute name="positive" value="down"/>
+    <attribute name="long_name" value="pressure"/>
+    <attribute name="standard_name" value="air_pressure"/>
+  </variable>
+  <remove name="time" type="variable"/>
+  <aggregation type="union">
+    <netcdf>
+      <aggregation dimName="time0" type="joinNew">
+        <variableAgg name="orog"/>
+        <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/fx/atmos/fx/r0i0p0/v20130826/orog_fx_CNRM-CM5_rcp85_r0i0p0.nc" ncoords="1"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <aggregation dimName="time0" type="joinNew">
+        <variableAgg name="sftlf"/>
+        <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/fx/atmos/fx/r0i0p0/v20130826/sftlf_fx_CNRM-CM5_rcp85_r0i0p0.nc" ncoords="1"/>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <dimension name="time1" orgName="time"/>
+      <aggregation type="union">
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hur_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/hus_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/pr_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/huss_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/prsn_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWindmax_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/sfcWind_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/psl_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ta_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tas_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmax_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/tasmin_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/ua_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/uas_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/vas_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/wap_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/zg_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+      </aggregation>
+    </netcdf>
+    <netcdf>
+      <dimension name="time2" orgName="time"/>
+      <aggregation type="union">
+        <netcdf>
+          <aggregation dimName="time" type="joinExisting">
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20060101-20101231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20110101-20151231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20160101-20201231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20210101-20251231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20260101-20301231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20310101-20351231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20360101-20401231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20410101-20451231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20460101-20501231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20510101-20551231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20560101-20601231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20610101-20651231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20660101-20701231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20760101-20801231.nc" ncoords="1827"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20810101-20851231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20860101-20901231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20910101-20951231.nc" ncoords="1826"/>
+            <netcdf location="../DRS/cmip5/output1/CNRM-CERFACS/CNRM-CM5/rcp85/day/atmos/day/r1i1p1/v20130101/va_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc" ncoords="1826"/>
+          </aggregation>
+        </netcdf>
+      </aggregation>
+    </netcdf>
+  </aggregation>
+</netcdf>
