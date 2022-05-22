@@ -31,7 +31,7 @@ dependencies:
   - jupyter_nbextensions_configurator 
   - nbgitpuller # required to decouple binder and repo
   - jupyter-resource-usage
-  - jupyter_contrib_nbextension
+  - jupyter_contrib_nbextensions
   ## Dependencies for notebooks
   - r-devtools     
   - r-magrittr     
