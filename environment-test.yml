@@ -3,7 +3,7 @@ channels:
   - conda-forge
 #  - r
 #  - defaults
-  - santandermetgroup
+#  - santandermetgroup
 #  - conda-forge/label/broken
   - nodefaults
 dependencies:
