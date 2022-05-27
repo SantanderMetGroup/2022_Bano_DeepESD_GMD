@@ -16,12 +16,13 @@ dependencies:
   - r-visualizer       ==1.6.0
   - r-downscaler.keras ==1.0.0
   - r-climate4r.value  ==0.0.2
-  - r-climate4r.udg    ==0.2.2
+  - r-climate4r.udg    ==0.2.3
   # 
   - r-value            ==2.2.2
   - r-loader.java      ==1.1.1
   #python dependencies
   - python <3.10
+  - tensorflow
   ## Jupyter and JupyterHub dependencies
   - r-irkernel
   - jupyter
