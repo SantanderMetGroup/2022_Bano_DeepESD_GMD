@@ -1,41 +1,33 @@
-name: deepesd
+name: deep-esd
 channels:
   - conda-forge
-  - r
-  - defaults
-  - santandermetgroup
-  - conda-forge/label/broken
+#  - r
+#  - defaults
+#  - santandermetgroup
+#  - conda-forge/label/broken
+  - nodefaults
 dependencies:
   #r dependencies
-  - r-base             >=3.6.1,<3.7
-  - r-loader           ==1.7.0
+  - r-base             >=3.6.1,<4
+  - r-loader           ==1.7.1
   - r-loader.2nc       ==0.1.1
   - r-transformer      ==2.1.0
   - r-downscaler       ==3.3.2
   - r-visualizer       ==1.6.0
   - r-downscaler.keras ==1.0.0
   - r-climate4r.value  ==0.0.2
-  - r-climate4r.udg    ==0.2.3
+  - r-climate4r.udg    ==0.2.4
+  # 
+  - r-value            ==2.2.2
+  - r-loader.java      ==1.1.1
+  #- python             ==3.9.*
+  - tensorflow         ==2.6.* #2.6.3
+  #- keras              ==2.3.0
+  - r-tensorflow       ==2.6.0
+  #- r-keras            ==2.3.0
   
-  #- r-loader.java ==1.1.1
-  #- r-loader.ecoms ==1.4.6
-  #- r-convertr ==0.2.0
-  #- r-climate4r.indices ==0.2.0
-  #- r-value ==2.2.1
-  #- r-climate4r.datasets ==0.0.1
-  #python dependencies
-  - python >=3.7,<=3.9
-  ## Jupyter and JupyterHub dependencies
-  - r-irkernel  ==1.2
-  - jupyter     ==1.0.0 
-  - jupyterhub  ==1.4.2
-  - notebook    ==6.4.2
-  - jupyterlab  ==3.1.4
-  - jupyter_nbextensions_configurator 
-                ==0.4.1
-  - nbgitpuller ==0.10.1 # required to decouple binder and repo
   ## Dependencies for notebooks
-  - r-devtools     ==2.4.1
+  # - r-devtools     ==2.4.1
   - r-magrittr     ==2.0.1
   - r-rcolorbrewer ==1.1_2
   - r-gridextra    ==2.3
