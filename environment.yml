@@ -19,6 +19,15 @@ dependencies:
   #python dependencies
   - tensorflow         ==2.6.*
   - python             ==3.9.*
+  #jupyter dependencies
+  - r-irkernel  ==1.2
+  - jupyter     ==1.0.0
+  - jupyterhub  ==1.4.2
+  - notebook    ==6.4.2
+  - jupyterlab  ==3.1.4
+  - jupyter_nbextensions_configurator
+                ==0.4.1
+  - nbgitpuller ==0.10.1 # required to decouple binder and repo
   ## Dependencies for notebooks
   - r-magrittr     ==2.0.1
   - r-rcolorbrewer ==1.1_2
