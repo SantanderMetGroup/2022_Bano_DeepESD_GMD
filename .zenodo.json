@@ -37,7 +37,7 @@
         }
    ],    
 
-    "license": "",
+    "license": "CC-BY-4.0",
 
     "title": "Repository supporting the results presented in the manuscript published in the Geoscientific Model Development journal entitled 'Downscaling Multi-Model Climate Projection Ensembles with Deep Learning (DeepESD): Contribution to CORDEX EUR-44'",
     
