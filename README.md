@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/490304799.svg)](https://zenodo.org/badge/latestdoi/490304799)
+
 # Downscaling Multi-Model Climate Projection Ensembles with Deep Learning (DeepESD): Contribution to CORDEX EUR-44
 This repository contains the material and guidelines to reproduce the results presented in the manuscript entitled *Downscaling Multi-Model Climate Projection Ensembles with Deep Learning (DeepESD): Contribution to CORDEX EUR-44*, submitted to *Geoscientific Model Development* journal  (https://doi.org/10.5194/gmd-2022-57). Authors and corresponding ORCID can be found in the [zenodo.json](.zenodo.json) file.
 
